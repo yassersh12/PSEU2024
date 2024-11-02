@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Design</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 130px);
+            grid-template-rows: repeat(3, 110px);
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            height: 150vh;
+            background-color: #f0f0f0;
+        }
+
+        .square {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border: 10px solid #936000;
+            box-shadow: 0 0 0 3px blue;
+
+        }
+
+        .circle-container {
+            width: 60px;
+            height: 100px;
+            background-color: #D2B48C;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid #A52A2A;
+
+        }
+
+        .circle-container2 {
+            width: 60px;
+            height: 100px;
+            background-color: #D2B48C;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid #A52A2A;
+            margin: 55px;
+        }
+
+        .circle {
+            width: 30px;
+            height: 60px;
+            background-color: rgb(96, 53, 253);
+            border-radius: 50%;
+        }
+
+        .center-oval {
+            width: 210px;
+            height: 100px;
+            background-color: #D2B48C;
+            /* Tan */
+            border: 3px solid #A52A2A;
+            border-radius: 40%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 0 5px lightgray;
+            margin: -50px;
+
+        }
+
+        .inner-oval {
+            width: 180px;
+            height: 85px;
+            background-color: rgb(106, 49, 250);
+            border-radius: 40%;
+            box-shadow: 0 0 0 5px #D2B48C;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+
+        <div class="circle-container">
+            <div class="circle"></div>
+        </div>
+
+        <div class="center-oval">
+            <div class="inner-oval"></div>
+        </div>
+
+        <div class="circle-container2">
+            <div class="circle"></div>
+        </div>
+
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+</body>
+
+</html>
