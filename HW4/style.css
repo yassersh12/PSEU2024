@@ -1,0 +1,45 @@
+body {
+    background: #ffd9b3;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card1 {
+    box-shadow: 0 -4px 10px rgba(255, 99, 71, 0.5);
+}
+
+.card2 {
+    box-shadow: 0 -4px 10px rgba(0, 128, 128, 0.5);
+}
+
+.card3 {
+    box-shadow: 0 -4px 10px rgba(255, 215, 0, 0.5);
+}
+
+.card4 {
+    box-shadow: 0 -4px 10px rgba(30, 144, 255, 0.5);
+}
+
+.card5 {
+    box-shadow: 0 -4px 10px rgba(34, 139, 34, 0.5);
+}
+
+.card6 {
+    box-shadow: 0 -4px 10px rgba(128, 0, 128, 0.5);
+}
+
+.icon {
+    font-size: 30px;
+}
